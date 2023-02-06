@@ -1,0 +1,11 @@
+apiVersion: storage.gcp.upbound.io/v1beta1
+kind: Bucket
+metadata:
+  name: upbound-bucket-5a6466eb4
+spec:
+  forProvider:
+    location: US
+    storageClass: MULTI_REGIONAL
+  providerConfigRef:
+    name: gcp-provider-confg
+  deletionPolicy: Delete
