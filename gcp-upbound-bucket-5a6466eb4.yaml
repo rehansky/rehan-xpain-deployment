@@ -1,7 +1,7 @@
 apiVersion: storage.gcp.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: upbound-bucket-5a6466eb4
+  name: rehan-xplain-bucket-5a6466eb4
 spec:
   forProvider:
     location: US
